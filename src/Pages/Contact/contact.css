@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.contact {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.pageHeader {
+    padding-top: 30px;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infoDisplay {
+    padding: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    width: 325px;
+}
+
+.infoDisplay > p {
+    padding: 5px;
+}
